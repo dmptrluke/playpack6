@@ -16,12 +16,12 @@
   },
   "overlay": {
     "overlayPosX": 0.5,
-    "overlayPosY": 1.0,
-    "overlayScale": 1.0,
+    "overlayPosY": 0.98913044,
+    "overlayScale": 1.0021739,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
-    "flipMainHand": false,
+    "flipMainHand": true,
     "color": {
       "alpha": 0.7,
       "themes": {

@@ -88,7 +88,26 @@
 		</Module>
 
 		<!-- Utilities -->
-		<Module name="Catalogue" id="catalogue" depends="" side="BOTH">
+	    <Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/appleskin-forge-mc1.18.2-2.4.1.jar</URL>
+			<Size>46304</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fcd811d8fb5f83614d8e9b2e44c5edbc</MD5>
+			<Meta>
+				<license>The Unlicense</license>
+				<description>Adds various food-related HUD improvements</description>
+				<version>2.4.1</version>
+				<authors>squeek</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/appleskin-client.toml</URL>
+				<Path>config/appleskin-client.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>122769d6382726e5280ef3c79cbf10e0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Catalogue" id="catalogue" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/catalogue-1.6.2-1.18.2.jar</URL>
 			<Size>98216</Size>
 			<Required>true</Required>
@@ -101,7 +120,7 @@
 				<authors>MrCrayfish</authors>
 			</Meta>
 		</Module>
-		<Module name="Configured" id="configured" depends="catalogue" side="BOTH">
+		<Module name="Configured" id="configured" depends="catalogue" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/configured-1.5.4-1.18.2.jar</URL>
 			<Size>131985</Size>
 			<Required>true</Required>
@@ -127,25 +146,6 @@
 				<authors>mezz</authors>
 			</Meta>
 		</Module>
-		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/appleskin-forge-mc1.18.2-2.4.1.jar</URL>
-			<Size>46304</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>fcd811d8fb5f83614d8e9b2e44c5edbc</MD5>
-			<Meta>
-				<license>The Unlicense</license>
-				<description>Adds various food-related HUD improvements</description>
-				<version>2.4.1</version>
-				<authors>squeek</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/appleskin-client.toml</URL>
-				<Path>config/appleskin-client.toml</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>122769d6382726e5280ef3c79cbf10e0</MD5>
-			</ConfigFile>
-		</Module>
         <Module name="Jade" id="jade" depends="jei" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Jade-1.18.2-forge-5.2.3.jar</URL>
 			<Size>298801</Size>
@@ -162,13 +162,45 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/jade/jade.json</URL>
 				<Path>config/jade/jade.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4859f581b2d0646f37ff40ff80008400</MD5>
+				<MD5>e2ebad904102fdd3048a4950716d0182</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/jade/jade_plugins.json</URL>
 				<Path>config/jade/jade_plugins.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3a868bc3d0ec08a8604a31545806fd4e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Xaeros Minimap" id="xaerominimap" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Xaeros_Minimap_22.13.2_Forge_1.18.2.jar</URL>
+			<Size>1226396</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>613d2a9b1949956049689883850c5fae</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>The most vanilla-looking minimap for Minecraft.</description>
+				<version>22.13.2</version>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaeros World Map" id="xaeroworldmap" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/XaerosWorldMap_1.26.6_Forge_1.18.2.jar</URL>
+			<Size>683076</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>bfa6b1a6c36743cbad69bf6268748e27</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
+				<version>1.26.6</version>
+				<authors>Xaero96</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/xaerominimap.txt</URL>
+				<Path>config/xaerominimap.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>20324d59ef18e063ea10a17c3295b0ad</MD5>
 			</ConfigFile>
 		</Module>
 
@@ -245,11 +277,16 @@
 			<MD5>42e831446ebdb42c97af1abbd2c5a1dd</MD5>
 			<Meta>
 				<license>https://github.com/team-abnormals/berry-good/blob/main/LICENSE.txt</license>
-				<description>    Makes sweet berries less annoying to eat and adds more berry related content
-    </description>
+				<description>Makes sweet berries less annoying to eat and adds more berry related content</description>
 				<version>${file.jarVersion}</version>
 				<authors>Team Abnormals</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/berry_good-common.toml</URL>
+				<Path>config/berry_good-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fcf1ffeeb53566486e76d5fd5338a91e</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Buzzier Bees" id="buzzier_bees" depends="blueprint" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/buzzier_bees-1.18.2-4.0.0.jar</URL>
@@ -259,11 +296,16 @@
 			<MD5>4232a2c2c54c2e15f17ed248eb0fca1b</MD5>
 			<Meta>
 				<license>https://github.com/team-abnormals/buzzier-bees/blob/main/LICENSE.txt</license>
-				<description>    Buzzier Bees expands on the content introduced in 1.15, introducing new building blocks and other honey-related features!
-    </description>
+				<description>Buzzier Bees expands on the content introduced in 1.15, introducing new building blocks and other honey-related features!</description>
 				<version>${file.jarVersion}</version>
 				<authors>Team Abnormals</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/buzzier_bees-common.toml</URL>
+				<Path>config/buzzier_bees-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f37be18abccb8fc076376fc145a5a5b5</MD5>
+			</ConfigFile>
 		</Module>
 	</Server>
 </ServerPack>
