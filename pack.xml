@@ -189,7 +189,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/quark-common.toml</URL>
 				<Path>config/quark-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>5ea17f570294073a1cc6328b68507d32</MD5>
+				<MD5>c6644f0bfa3b5a4c2cb5b0c1c06eb840</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Neapolitan" id="neapolitan" depends="blueprint" side="BOTH">
@@ -236,6 +236,34 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>811adf12a2a00e0779cdabee172f50cc</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Berry Good" id="berry_good" depends="blueprint" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/berry_good-1.18.2-5.0.0.jar</URL>
+			<Size>3041091</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>42e831446ebdb42c97af1abbd2c5a1dd</MD5>
+			<Meta>
+				<license>https://github.com/team-abnormals/berry-good/blob/main/LICENSE.txt</license>
+				<description>    Makes sweet berries less annoying to eat and adds more berry related content
+    </description>
+				<version>${file.jarVersion}</version>
+				<authors>Team Abnormals</authors>
+			</Meta>
+		</Module>
+		<Module name="Buzzier Bees" id="buzzier_bees" depends="blueprint" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/buzzier_bees-1.18.2-4.0.0.jar</URL>
+			<Size>510875</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4232a2c2c54c2e15f17ed248eb0fca1b</MD5>
+			<Meta>
+				<license>https://github.com/team-abnormals/buzzier-bees/blob/main/LICENSE.txt</license>
+				<description>    Buzzier Bees expands on the content introduced in 1.15, introducing new building blocks and other honey-related features!
+    </description>
+				<version>${file.jarVersion}</version>
+				<authors>Team Abnormals</authors>
+			</Meta>
 		</Module>
 	</Server>
 </ServerPack>
