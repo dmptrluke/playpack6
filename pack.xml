@@ -115,6 +115,19 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<MD5>398b087c3e92d0addc03260bb059f1b6</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="FastFurnace" id="fastfurnace" depends="placebo" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/FastFurnace-1.18.2-6.0.3.jar</URL>
+			<Size>5459</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>290a656290822c7aad682f67d9213cbf</MD5>
+			<Meta>
+				<license>MIT License</license>
+				<description>Furnacing things faster, performance-wise</description>
+				<version>6.0.3</version>
+				<authors></authors>
+			</Meta>
+		</Module>
 
 		<!-- Utilities -->
 		<Module name="AttributeFix" id="attributefix" depends="" side="BOTH">
@@ -199,6 +212,20 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<description>JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.</description>
 				<version>9.7.1.255</version>
 				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Polymorph" id="polymorph" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/polymorph-forge-1.18.2-0.44.jar</URL>
+			<Size>255494</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9dec0b8ae359093a88954027e691b3f7</MD5>
+			<Meta>
+				<license>LGPL-3.0-or-later</license>
+				<description>No more recipe conflicts! Adds an option to choose the crafting result if more than one is available.
+</description>
+				<version>1.18.2-0.44</version>
+				<authors>C4</authors>
 			</Meta>
 		</Module>
         <Module name="Jade" id="jade" depends="jei" side="BOTH">
