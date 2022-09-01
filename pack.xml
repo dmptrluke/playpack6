@@ -33,6 +33,22 @@
 				<authors>Team Abnormals</authors>
 			</Meta>
 		</Module>
+		<Module name="CoFH Core" id="cofh_core" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/cofh_core-1.18.2-1.6.4.21.jar</URL>
+			<Size>1379250</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c49f333bd6cf3cda6b21e48197b00a9d</MD5>
+			<Meta>
+				<license>CoFH - Don&apos;t Be A Jerk (Learn, Don&apos;t Steal)</license>
+				<description>Core Library required for the functionality of all CoFH mods.
+
+Also contains a number of optional gameplay tweaks for convenience.
+</description>
+				<version>${file.jarVersion}</version>
+				<authors>King Lemming, Zeldo Kavira, covers1624, skyboy, Cynycal, Drullkus</authors>
+			</Meta>
+		</Module>
 		<Module name="Placebo" id="placebo" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Placebo-1.18.2-6.6.4.jar</URL>
 			<Size>207519</Size>
@@ -65,6 +81,19 @@
 				<MD5>0a79fa039b71bf8d3942f677d3269576</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="YUNGs API" id="yungsapi" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsApi-1.18.2-Forge-2.0.8.jar</URL>
+			<Size>141972</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>977d146e9845e2e7975ad8a19e403427</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>API Library for YUNG&apos;s minecraft mods.</description>
+				<version>2.0.8</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+		</Module>
 
 		<!-- Optimisation -->
 		<Module name="Fast Workbench" id="fastbench" depends="placebo" side="BOTH">
@@ -88,7 +117,20 @@
 		</Module>
 
 		<!-- Utilities -->
-	    <Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+		<Module name="AttributeFix" id="attributefix" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/AttributeFix-Forge-1.18.2-14.0.2.jar</URL>
+			<Size>20394</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b3c46689c40a827b38beec4b24b5b0d3</MD5>
+			<Meta>
+				<license>LGPL V2.1</license>
+				<description>Extends the maximum attribute ranges to allow for higher values.</description>
+				<version>14.0.2</version>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/appleskin-forge-mc1.18.2-2.4.1.jar</URL>
 			<Size>46304</Size>
 			<Required>true</Required>
@@ -131,6 +173,19 @@
 				<description>Creates a simple GUI config for every mod!</description>
 				<version>1.5.4</version>
 				<authors>MrCrayfish</authors>
+			</Meta>
+		</Module>
+		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Controlling-forge-1.18.2-9.0+22.jar</URL>
+			<Size>117170</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1e4a04b0502d05134754677c231ee25c</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.</description>
+				<version>9.0+22</version>
+				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
@@ -205,6 +260,19 @@
 		</Module>
 
 		<!-- Content -->
+		<Module name="Comforts" id="comforts" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/comforts-forge-1.18.2-5.0.0.4.jar</URL>
+			<Size>225164</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>54d24dc2817a40ee3918cf9623c36091</MD5>
+			<Meta>
+				<license>LGPL-3.0-or-later</license>
+				<description>Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns.</description>
+				<version>1.18.2-5.0.0.4</version>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
 		<Module name="Quark" id="quark" depends="autoreglib" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Quark-3.2-358.jar</URL>
 			<Size>13743162</Size>
@@ -305,6 +373,101 @@
 				<Path>config/buzzier_bees-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f37be18abccb8fc076376fc145a5a5b5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Better Dungeons" id="betterdungeons" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterDungeons-1.18.2-Forge-2.1.0.jar</URL>
+			<Size>1024281</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8926095e9ab377a673f2b00f7952ff9c</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>A complete redesign of Minecraft&apos;s dungeons</description>
+				<version>${file.jarVersion}</version>
+				<authors>YUNGNICKYOUNG, Acarii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/betterdungeons-forge-1_18.toml</URL>
+				<Path>config/betterdungeons-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4a01ff88f0739412da3797254e712a02</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Better Mineshafts" id="bettermineshafts" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterMineshafts-1.18.2-Forge-2.2.jar</URL>
+			<Size>274075</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8419d7d54b5818fcd34a00ac308ca4ff</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>The long-awaited and much-needed abandoned mineshaft overhaul!</description>
+				<version>${file.jarVersion}</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/bettermineshafts-forge-1_18.toml</URL>
+				<Path>config/bettermineshafts-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>47261882dc7412a1bf15d99a64956ce1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Better Strongholds" id="betterstrongholds" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterStrongholds-1.18.2-Forge-2.1.1.jar</URL>
+			<Size>593261</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9189fbe62f04e5edfbd9c1c0f670ce8d</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>A complete redesign of Minecraft&apos;s strongholds</description>
+				<version>${file.jarVersion}</version>
+				<authors>YUNGNICKYOUNG, Acarii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/betterstrongholds-forge-1_18.toml</URL>
+				<Path>config/betterstrongholds-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8706bfee7a76fd4b374c1bb74806e517</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Bridges" id="yungsbridges" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBridges-1.18.2-Forge-2.1.0.jar</URL>
+			<Size>1062051</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3ea12d7ca5f51318f2794964067b8cbd</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Adds naturally occurring bridges throughout the world!</description>
+				<version>${file.jarVersion}</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/YungsBridges-forge-1_18.toml</URL>
+				<Path>config/YungsBridges-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ba80f0de4a47e8925e0a8f4f1e0cff3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Extras" id="yungsextras" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsExtras-1.18.2-Forge-2.1.0.jar</URL>
+			<Size>868254</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7bac8e9e67f725c867dcca5aa487afb2</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Extra structures and vanilla+ content added throughout the game</description>
+				<version>${file.jarVersion}</version>
+				<authors>YUNGNICKYOUNG, Acarii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/YungsExtras-forge-1_18.toml</URL>
+				<Path>config/YungsExtras-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1f9c20a508e1a5e91ec23fd9a50a8104</MD5>
 			</ConfigFile>
 		</Module>
 	</Server>
