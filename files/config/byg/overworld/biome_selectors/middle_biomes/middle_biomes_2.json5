@@ -19,10 +19,10 @@ All keys passed in must be valid in the biome registry!
 */
 {
 	"value": [
-		[ "byg:shattered_glacier", "byg:cardinal_tundra", "byg:cardinal_tundra", "byg:skyris_vale", "byg:skyris_vale" ],
-		[ "biomesoplenty:field", "byg:weeping_witch_forest", "byg:twilight_meadow", "byg:autumnal_valley", "byg:cika_woods" ],
-		[ "byg:forgotten_forest", "byg:prairie", "byg:allium_fields", "byg:aspen_forest", "byg:temperate_rainforest" ],
-		[ "byg:araucaria_savanna", "byg:baobab_savanna", "biomesoplenty:cherry_blossom_grove", "byg:ebony_woods", "minecraft:sparse_jungle" ],
-		[ "byg:atacama_desert", "byg:red_rock_valley", "byg:mojave_desert", "byg:sierra_badlands", "byg:windswept_desert" ]
+		[ "byg:frosted_coniferous_forest", "byg:frosted_coniferous_forest", "byg:frosted_taiga", "byg:autumnal_forest", "byg:autumnal_taiga" ],
+		[ "byg:rose_fields", "byg:fragment_forest", "byg:zelkova_forest", "byg:coconino_meadow", "byg:redwood_thicket" ],
+		[ "byg:temperate_grove", "byg:orchard", "byg:orchard", "byg:red_oak_forest", "byg:jacaranda_forest" ],
+		[ "byg:firecracker_shrubland", "byg:firecracker_shrubland", "byg:amaranth_fields", "byg:crag_gardens", "biomesoplenty:rainforest" ],
+		[ "byg:atacama_desert", "byg:atacama_desert", "byg:sierra_badlands", "byg:atacama_desert", "byg:mojave_desert" ]
 	]
 }

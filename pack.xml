@@ -317,13 +317,19 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_1.json5</URL>
 				<Path>config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_1.json5</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>484df4118236880d18d07e0baf0f714f</MD5>
+				<MD5>811518ea557e53720d75e79ff4f11c4d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_2.json5</URL>
+				<Path>config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_2.json5</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e4282a434906e59f16aab6e7f2fcc4ee</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5</URL>
 				<Path>config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>1e426fa1d3f56d233ca4d0aff3478173</MD5>
+				<MD5>989fc24286c5e070b10d7b6a25debec0</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="YUNGs Better Dungeons" id="betterdungeons" depends="yungsapi" side="BOTH">
