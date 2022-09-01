@@ -652,6 +652,12 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<authors>King Lemming</authors>
 			</Meta>
 			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/thermal-common.toml</URL>
+				<Path>config/thermal-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4d67250e282516f10e84be0777eb0673</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/defaultconfigs/thermal-server.toml</URL>
 				<Path>defaultconfigs/thermal-server.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
