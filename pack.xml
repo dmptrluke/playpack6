@@ -329,7 +329,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5</URL>
 				<Path>config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>989fc24286c5e070b10d7b6a25debec0</MD5>
+				<MD5>bd4d7992d54274b7f0db37ea8999666b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="YUNGs Better Dungeons" id="betterdungeons" depends="yungsapi" side="BOTH">
@@ -458,7 +458,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/quark-common.toml</URL>
 				<Path>config/quark-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>c6644f0bfa3b5a4c2cb5b0c1c06eb840</MD5>
+				<MD5>159d634ff755398f1a8fe9d6e69f7698</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Neapolitan" id="neapolitan" depends="blueprint" side="BOTH">
