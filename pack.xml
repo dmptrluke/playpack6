@@ -452,6 +452,19 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors>mezz</authors>
 			</Meta>
 		</Module>
+		<Module name="Mod Name Tooltip" id="modnametooltip" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/modnametooltip-1.18.1-1.18.0.jar</URL>
+			<Size>11966</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>327106ca29b6aeed7a0e16539a9f96aa</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>On ItemStack tooltips, shows which mod the item is from.</description>
+				<version>1.18.0</version>
+				<authors></authors>
+			</Meta>
+		</Module>
 		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/Patchouli-1.18.2-71.1.jar</URL>
 			<Size>631415</Size>
@@ -614,6 +627,12 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<Path>config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>bd4d7992d54274b7f0db37ea8999666b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/scripts/byg.zs</URL>
+				<Path>scripts/byg.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7cafd5df95a85d9022234880776b86b3</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="YUNGs Better Dungeons" id="betterdungeons" depends="yungsapi" side="BOTH">
