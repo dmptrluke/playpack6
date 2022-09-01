@@ -259,6 +259,169 @@ Also contains a number of optional gameplay tweaks for convenience.
 			</ConfigFile>
 		</Module>
 
+		<!-- World Generation -->
+		<Module name="Biomes O Plenty" id="biomesoplenty" depends="terrablender" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/BiomesOPlenty-1.18.2-16.0.0.109-universal.jar</URL>
+			<Size>21244292</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c871cdbefa4dedfbc0d0af75352cddb2</MD5>
+			<Meta>
+				<license>All Rights Reserved</license>
+				<description>Adds over 50 new biomes, blocks, and more!</description>
+				<version>16.0.0.109</version>
+				<authors>Forstride, Adubbz</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/biomesoplenty/biome_toggles.json</URL>
+				<Path>config/biomesoplenty/biome_toggles.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e83995f026f87e979671779dd1ecdbaa</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/biomesoplenty/generation.toml</URL>
+				<Path>config/biomesoplenty/generation.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>811adf12a2a00e0779cdabee172f50cc</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Oh The Biomes You'll Go" id="byg" depends="terrablender" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Oh_The_Biomes_You&apos;ll_Go-forge-1.18.2-1.4.4.jar</URL>
+			<Size>36406796</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>da23f00e48758cefcc5a19e5c833fd1f</MD5>
+			<Meta>
+				<license>Code: LGPLv3 
+Assets: All Rights Reserved</license>
+				<description>An Adventure and Exploration mod with over 80 new biomes!
+
+Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit and any inaccuracies that may appear are not BYG&apos;s responsibility.
+</description>
+				<version>1.4</version>
+				<authors>AOCAWOL, Corgi Taco, YaBoiChips</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/nether-biomes.json5</URL>
+				<Path>config/byg/nether-biomes.json5</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>30b69afe9ee81976a756ebd024d799f2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/beach_biomes/beach_biomes_1.json5</URL>
+				<Path>config/byg/overworld/biome_selectors/beach_biomes/beach_biomes_1.json5</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>efb7a3e2909ce607a4c2d23349319fec</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_1.json5</URL>
+				<Path>config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_1.json5</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>484df4118236880d18d07e0baf0f714f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5</URL>
+				<Path>config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f7ced31f594bf890e63f5f5a4942811c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Better Dungeons" id="betterdungeons" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterDungeons-1.18.2-Forge-2.1.0.jar</URL>
+			<Size>1024281</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8926095e9ab377a673f2b00f7952ff9c</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>A complete redesign of Minecraft&apos;s dungeons</description>
+				<version>2.1.0</version>
+				<authors>YUNGNICKYOUNG, Acarii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/betterdungeons-forge-1_18.toml</URL>
+				<Path>config/betterdungeons-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4a01ff88f0739412da3797254e712a02</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Better Mineshafts" id="bettermineshafts" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterMineshafts-1.18.2-Forge-2.2.jar</URL>
+			<Size>274075</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8419d7d54b5818fcd34a00ac308ca4ff</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>The long-awaited and much-needed abandoned mineshaft overhaul!</description>
+				<version>2.2</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/bettermineshafts-forge-1_18.toml</URL>
+				<Path>config/bettermineshafts-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>47261882dc7412a1bf15d99a64956ce1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Better Strongholds" id="betterstrongholds" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterStrongholds-1.18.2-Forge-2.1.1.jar</URL>
+			<Size>593261</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9189fbe62f04e5edfbd9c1c0f670ce8d</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>A complete redesign of Minecraft&apos;s strongholds</description>
+				<version>2.1.1</version>
+				<authors>YUNGNICKYOUNG, Acarii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/betterstrongholds-forge-1_18.toml</URL>
+				<Path>config/betterstrongholds-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8706bfee7a76fd4b374c1bb74806e517</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Bridges" id="yungsbridges" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBridges-1.18.2-Forge-2.1.0.jar</URL>
+			<Size>1062051</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3ea12d7ca5f51318f2794964067b8cbd</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Adds naturally occurring bridges throughout the world!</description>
+				<version>2.1.0</version>
+				<authors>YUNGNICKYOUNG</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/YungsBridges-forge-1_18.toml</URL>
+				<Path>config/YungsBridges-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ba80f0de4a47e8925e0a8f4f1e0cff3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="YUNGs Extras" id="yungsextras" depends="yungsapi" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsExtras-1.18.2-Forge-2.1.0.jar</URL>
+			<Size>868254</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7bac8e9e67f725c867dcca5aa487afb2</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Extra structures and vanilla+ content added throughout the game</description>
+				<version>2.1.0</version>
+				<authors>YUNGNICKYOUNG, Acarii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/YungsExtras-forge-1_18.toml</URL>
+				<Path>config/YungsExtras-forge-1_18.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1f9c20a508e1a5e91ec23fd9a50a8104</MD5>
+			</ConfigFile>
+		</Module>
+
 		<!-- Content -->
 		<Module name="Comforts" id="comforts" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/comforts-forge-1.18.2-5.0.0.4.jar</URL>
@@ -312,31 +475,6 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<MD5>f5bad9a3c56b809f2fe08d9321938cb5</MD5>
 			</ConfigFile>
 		</Module>
-        <Module name="Biomes O Plenty" id="biomesoplenty" depends="terrablender" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/BiomesOPlenty-1.18.2-16.0.0.109-universal.jar</URL>
-			<Size>21244292</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>c871cdbefa4dedfbc0d0af75352cddb2</MD5>
-			<Meta>
-				<license>All Rights Reserved</license>
-				<description>Adds over 50 new biomes, blocks, and more!</description>
-				<version>16.0.0.109</version>
-				<authors>Forstride, Adubbz</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/biomesoplenty/biome_toggles.json</URL>
-				<Path>config/biomesoplenty/biome_toggles.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e83995f026f87e979671779dd1ecdbaa</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/biomesoplenty/generation.toml</URL>
-				<Path>config/biomesoplenty/generation.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>811adf12a2a00e0779cdabee172f50cc</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Berry Good" id="berry_good" depends="blueprint" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/berry_good-1.18.2-5.0.0.jar</URL>
 			<Size>3041091</Size>
@@ -373,101 +511,6 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<Path>config/buzzier_bees-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f37be18abccb8fc076376fc145a5a5b5</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="YUNGs Better Dungeons" id="betterdungeons" depends="yungsapi" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterDungeons-1.18.2-Forge-2.1.0.jar</URL>
-			<Size>1024281</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>8926095e9ab377a673f2b00f7952ff9c</MD5>
-			<Meta>
-				<license>LGPLv3</license>
-				<description>A complete redesign of Minecraft&apos;s dungeons</description>
-				<version>${file.jarVersion}</version>
-				<authors>YUNGNICKYOUNG, Acarii</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/betterdungeons-forge-1_18.toml</URL>
-				<Path>config/betterdungeons-forge-1_18.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4a01ff88f0739412da3797254e712a02</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="YUNGs Better Mineshafts" id="bettermineshafts" depends="yungsapi" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterMineshafts-1.18.2-Forge-2.2.jar</URL>
-			<Size>274075</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>8419d7d54b5818fcd34a00ac308ca4ff</MD5>
-			<Meta>
-				<license>LGPLv3</license>
-				<description>The long-awaited and much-needed abandoned mineshaft overhaul!</description>
-				<version>${file.jarVersion}</version>
-				<authors>YUNGNICKYOUNG</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/bettermineshafts-forge-1_18.toml</URL>
-				<Path>config/bettermineshafts-forge-1_18.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>47261882dc7412a1bf15d99a64956ce1</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="YUNGs Better Strongholds" id="betterstrongholds" depends="yungsapi" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterStrongholds-1.18.2-Forge-2.1.1.jar</URL>
-			<Size>593261</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>9189fbe62f04e5edfbd9c1c0f670ce8d</MD5>
-			<Meta>
-				<license>LGPLv3</license>
-				<description>A complete redesign of Minecraft&apos;s strongholds</description>
-				<version>${file.jarVersion}</version>
-				<authors>YUNGNICKYOUNG, Acarii</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/betterstrongholds-forge-1_18.toml</URL>
-				<Path>config/betterstrongholds-forge-1_18.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8706bfee7a76fd4b374c1bb74806e517</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="YUNGs Bridges" id="yungsbridges" depends="yungsapi" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBridges-1.18.2-Forge-2.1.0.jar</URL>
-			<Size>1062051</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>3ea12d7ca5f51318f2794964067b8cbd</MD5>
-			<Meta>
-				<license>LGPLv3</license>
-				<description>Adds naturally occurring bridges throughout the world!</description>
-				<version>${file.jarVersion}</version>
-				<authors>YUNGNICKYOUNG</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/YungsBridges-forge-1_18.toml</URL>
-				<Path>config/YungsBridges-forge-1_18.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8ba80f0de4a47e8925e0a8f4f1e0cff3</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="YUNGs Extras" id="yungsextras" depends="yungsapi" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsExtras-1.18.2-Forge-2.1.0.jar</URL>
-			<Size>868254</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>7bac8e9e67f725c867dcca5aa487afb2</MD5>
-			<Meta>
-				<license>LGPLv3</license>
-				<description>Extra structures and vanilla+ content added throughout the game</description>
-				<version>${file.jarVersion}</version>
-				<authors>YUNGNICKYOUNG, Acarii</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/YungsExtras-forge-1_18.toml</URL>
-				<Path>config/YungsExtras-forge-1_18.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>1f9c20a508e1a5e91ec23fd9a50a8104</MD5>
 			</ConfigFile>
 		</Module>
 	</Server>
