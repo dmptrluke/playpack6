@@ -147,6 +147,19 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
+		<Module name="Fast Suite" id="fastsuite" depends="placebo" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/FastSuite-1.18.2-3.0.2.jar</URL>
+			<Size>11185</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45d1de27c9e69e614a3b480a03809bc8</MD5>
+			<Meta>
+				<license>MIT License</license>
+				<description>Faster things - everywhere!</description>
+				<version>3.0.2</version>
+				<authors></authors>
+			</Meta>
+		</Module>
 		<Module name="Fast Workbench" id="fastbench" depends="placebo" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/FastWorkbench-1.18.2-6.1.0.jar</URL>
 			<Size>25457</Size>
@@ -191,6 +204,12 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<version>4.2.1</version>
 				<authors>malte0811</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/ferritecore-mixin.toml</URL>
+				<Path>config/ferritecore-mixin.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>eba16cc02d779fa059d60d2721a5cd51</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Radium" id="radium" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/radium-0.7.10.jar</URL>
@@ -735,6 +754,17 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>75966eeeb4eec84f3ba8647fbb513218</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Thermal Cultivation" id="thermal_cultivation" depends="cofh_core thermal" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/thermal_cultivation-1.18.2-1.6.3.11.jar</URL>
+			<Size>679560</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>181a67c932aa0aa17c042e03d1b1973e</MD5>
+			<Meta>
+				<description>Thermal gets agrarian!</description>
+				<authors>King Lemming</authors>
+			</Meta>
+		</Module>
 		<Module name="Thermal Expansion" id="thermal_expansion" depends="cofh_core thermal" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/thermal_expansion-1.18.2-1.6.3.13.jar</URL>
 			<Size>598666</Size>
@@ -743,6 +773,17 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 			<MD5>418d6eb8847020959b62c647f07b7f53</MD5>
 			<Meta>
 				<description>Expanding Minecraft Thermally! A server-friendly and content-rich blend of magic and technology!</description>
+				<authors>King Lemming</authors>
+			</Meta>
+		</Module>
+		<Module name="Thermal Innovation" id="thermal_innovation" depends="cofh_core thermal" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/thermal_innovation-1.18.2-1.6.3.12.jar</URL>
+			<Size>230130</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5acdbb45dd5fdb4df9f25fbaf917749a</MD5>
+			<Meta>
+				<description>Thermal Technology marches on. Adds Thermal-style tools and equipment!</description>
 				<authors>King Lemming</authors>
 			</Meta>
 		</Module>
