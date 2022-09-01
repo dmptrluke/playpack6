@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="https://launcher.dmptr.com/launcher/ServerPackv2.xsl" type="text/xsl" ?>
+<?xml-stylesheet href="https://launcher.dmptr.com/launcher/ServerPackv2.xsl" type="text/xsl"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack6" abstract="false" name="PlayPack 6" newsUrl="https://launcher.dmptr.com/playpack_6/pack.xml" version="1.18.2" generateList="true" autoConnect="true" revision="1" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" launcherType="Vanilla">
-		<Loader type="Forge" version="1.18.2-40.1.74" loadOrder="0"/>
+		<Loader type="Forge" version="1.18.2-40.1.74" loadOrder="0" />
 
 		<!-- Libraries -->
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
@@ -16,6 +16,19 @@
 				<description>Automatically item, block, and model registration for mods.</description>
 				<version>1.7-53</version>
 				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Balm" id="balm" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/balm-3.2.0+0.jar</URL>
+			<Size>621815</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>96454d0c4b04f2fed1573ae22f78e8ba</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Abstraction Layer (but not really)™ for Blay&apos;s multiplatform mods</description>
+				<version>3.2.0</version>
+				<authors>BlayTheNinth</authors>
 			</Meta>
 		</Module>
 		<Module name="Blueprint" id="blueprint" depends="" side="BOTH">
@@ -147,6 +160,19 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
+		<Module name="EntityCulling" id="entityculling" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/entityculling-forge-mc1.18-1.5.1.jar</URL>
+			<Size>45276</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>46ee14a0bc294c908512334696ae92ab</MD5>
+			<Meta>
+				<license>tr7zw Protective License</license>
+				<description>Using async raytracing to hide Tile-/Entities that are hidden behind solid blocks.</description>
+				<version>1.5.1</version>
+				<authors>tr7zw</authors>
+			</Meta>
+		</Module>
 		<Module name="Fast Suite" id="fastsuite" depends="placebo" side="BOTH">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/FastSuite-1.18.2-3.0.2.jar</URL>
 			<Size>11185</Size>
@@ -236,6 +262,12 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<version>0.5.3a</version>
 				<authors>NanoLive</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/rubidium_extras.toml</URL>
+				<Path>config/rubidium_extras.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>f194eeae0dcdfba2c14b92fa9ea8b01f</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Rubidium Extras" id="rubidium_extras" depends="rubidium" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/rubidium_extras-1.18.2_v1.3.2.jar</URL>
@@ -374,6 +406,39 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
+		<Module name="CraftingTweaks" id="craftingtweaks" depends="balm" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/craftingtweaks-forge-1.18.2-14.0.3.jar</URL>
+			<Size>178181</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>99270e71329df5d88eff94be7821058d</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Allows you to rotate, balance or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
+				<version>14.0.3</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="CraftTweaker" id="crafttweaker" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/CraftTweaker-forge-1.18.2-9.1.185.jar</URL>
+			<Size>2902311</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>91469c688f029b9a61a6c02f47b16096</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Customize your minecraft experience!</description>
+				<version>1.18.2-9.1.185</version>
+				<authors>Jaredlll08, Kindlich, StanHebben and TheSilkMiner</authors>
+			</Meta>
+			<Submodule name="JEI Tweaker" id="jeitweaker" side="BOTH">
+				<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/JEITweaker-1.18.2-3.0.0.9.jar</URL>
+				<Size>156552</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>8b635ba1bd6bfb5c6397a369887ba3db</MD5>
+			</Submodule>
+		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/jei-1.18.2-9.7.1.255.jar</URL>
 			<Size>993934</Size>
@@ -385,6 +450,19 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<description>JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.</description>
 				<version>9.7.1.255</version>
 				<authors>mezz</authors>
+			</Meta>
+		</Module>
+		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/Patchouli-1.18.2-71.1.jar</URL>
+			<Size>631415</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c16562c0c0095bc538c682517edc8b9c</MD5>
+			<Meta>
+				<license>CC BY-NC-SA 3.0</license>
+				<description>Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers</description>
+				<version>71.1</version>
+				<authors>Vazkii</authors>
 			</Meta>
 		</Module>
 		<Module name="Polymorph" id="polymorph" depends="" side="BOTH">
@@ -401,7 +479,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors>C4</authors>
 			</Meta>
 		</Module>
-        <Module name="Jade" id="jade" depends="jei" side="BOTH">
+		<Module name="Jade" id="jade" depends="jei" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Jade-1.18.2-forge-5.2.3.jar</URL>
 			<Size>298801</Size>
 			<Required>true</Required>
@@ -502,6 +580,12 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<authors>AOCAWOL, Corgi Taco, YaBoiChips</authors>
 			</Meta>
 			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/biomepedia.json5</URL>
+				<Path>config/byg/biomepedia.json5</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ed118447f5a8296d7d7f743aa8308842</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/nether-biomes.json5</URL>
 				<Path>config/byg/nether-biomes.json5</Path>
 				<NoOverwrite>false</NoOverwrite>
@@ -551,7 +635,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>4a01ff88f0739412da3797254e712a02</MD5>
 			</ConfigFile>
 		</Module>
-			<Module name="YUNGs Better Desert Temples" id="betterdeserttemples" depends="yungsapi" side="BOTH">
+		<Module name="YUNGs Better Desert Temples" id="betterdeserttemples" depends="yungsapi" side="BOTH">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterDesertTemples-1.18.2-Forge-1.3.1.jar</URL>
 			<Size>1488139</Size>
 			<Required>true</Required>
@@ -729,6 +813,12 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<Path>config/neapolitan-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f5bad9a3c56b809f2fe08d9321938cb5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/scripts/neapolitan.zs</URL>
+				<Path>scripts/neapolitan.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ad10d35cca264f58b6629f0e32ef49a9</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Series" id="thermal" depends="cofh_core" side="BOTH">
