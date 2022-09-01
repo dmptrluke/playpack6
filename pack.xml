@@ -55,6 +55,13 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<MD5>4f0c3f120d862e8abe61a032629ed935</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Kotlin for Forge" id="kotlin" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/kotlinforforge-3.7.1-obf.jar</URL>
+			<Size>6796888</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4ed88c3ea64c55e214e2993ac0fe412e</MD5>
+		</Module>
 		<Module name="Placebo" id="placebo" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Placebo-1.18.2-6.6.4.jar</URL>
 			<Size>207519</Size>
@@ -102,6 +109,44 @@ Also contains a number of optional gameplay tweaks for convenience.
 		</Module>
 
 		<!-- Optimisation -->
+		<Module name="AI Improvements" id="aiimprovements" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/AI-Improvements-1.18.2-0.5.0.jar</URL>
+			<Size>29374</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7aa6aaca214961c0aaab9b2424cc4ca1</MD5>
+			<Meta>
+				<license>MIT License https://github.com/BuiltBrokenModding/AI-Improvements/blob/1.18/LICENSE</license>
+				<description>Small adjustements and improvements to AI logic focusing on optimizations for increased server performance</description>
+				<version>0.5.0</version>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Better Biome Blend" id="betterbiomeblend" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/betterbiomeblend-1.18.2-1.3.5-forge.jar</URL>
+			<Size>52209</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>14f035b431177099b44cc41e890eec36</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>    This mod increases the biome color blending radius and replaces the original blending algorithm with a more efficient one.</description>
+				<version>1.3.5-forge</version>
+				<authors>FionaTheMortal</authors>
+			</Meta>
+		</Module>
+		<Module name="Clumps" id="clumps" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/Clumps-forge-1.18.2-8.0.0+15%20(1).jar</URL>
+			<Size>16764</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dbb2541dafc9bee8404e7c076058ebe7</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Clumps xp orbs together.</description>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
 		<Module name="Fast Workbench" id="fastbench" depends="placebo" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/FastWorkbench-1.18.2-6.1.0.jar</URL>
 			<Size>25457</Size>
@@ -134,6 +179,19 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors></authors>
 			</Meta>
 		</Module>
+		<Module name="Ferrite Core" id="ferritecore" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/ferritecore-4.2.1-forge.jar</URL>
+			<Size>116552</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b470ce3be52837936b0fdd4aa642f72</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Reduces memory usage.</description>
+				<version>4.2.1</version>
+				<authors>malte0811</authors>
+			</Meta>
+		</Module>
 		<Module name="Radium" id="radium" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/radium-0.7.10.jar</URL>
 			<Size>501920</Size>
@@ -142,8 +200,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 			<MD5>d72376e7e73009740ff0cc0f5618fd45</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
-				<description>An unofficial fork of Litihum mod, maked to work on FML.
-</description>
+				<description>An unofficial fork of Litihum mod, maked to work on FML.</description>
 				<version>0.7.10</version>
 				<authors>NanoLive</authors>
 			</Meta>
@@ -156,13 +213,12 @@ Also contains a number of optional gameplay tweaks for convenience.
 			<MD5>18d0eb87c3496ca616096faf3f89b088</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
-				<description>Rubidium is a Unofficial Fork of the Sodium maked to work on FML.
-</description>
+				<description>Rubidium is a Unofficial Fork of the Sodium maked to work on FML.</description>
 				<version>0.5.3a</version>
 				<authors>NanoLive</authors>
 			</Meta>
 		</Module>
-		<Module name="Rubidium: Extras" id="rubidium_extras" depends="rubidium" side="BOTH">
+		<Module name="Rubidium Extras" id="rubidium_extras" depends="rubidium" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/rubidium_extras-1.18.2_v1.3.2.jar</URL>
 			<Size>59001</Size>
 			<Required>true</Required>
@@ -170,13 +226,12 @@ Also contains a number of optional gameplay tweaks for convenience.
 			<MD5>7e84913ee15ae1f1233425d612a16bbf</MD5>
 			<Meta>
 				<license>WTFPL</license>
-				<description>Adds Extra Settings to Rubidium.
-</description>
+				<description>Adds Extra Settings to Rubidium.</description>
 				<version>1.3.2</version>
 				<authors>TeamDeusVult</authors>
 			</Meta>
 		</Module>
-		<Module name="Rubidium: Dynamic Lights" id="dynamiclightsreforged" depends="rubidium rubidium_extras" side="BOTH">
+		<Module name="Dynamic Lights" id="dynamiclightsreforged" depends="rubidium rubidium_extras" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/dynamiclightsreforged-1.18.2_v1.3.3.jar</URL>
 			<Size>90953</Size>
 			<Required isDefault="true">false</Required>
@@ -184,8 +239,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 			<MD5>8edf5f13c07e3db59c42ec0b919faa28</MD5>
 			<Meta>
 				<license>WTFPL</license>
-				<description>Adds Dynamic Lights to Rubidium.
-</description>
+				<description>Adds Dynamic Lights to Rubidium.</description>
 				<version>1.3.3</version>
 				<authors>TeamDeusVult</authors>
 			</Meta>
@@ -198,8 +252,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 			<MD5>2a103e58f0f8e3fda3ab4676966bcbb4</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
-				<description>    Rewrites the light engine to fix lighting performance and lighting errors
- </description>
+				<description>    Rewrites the light engine to fix lighting performance and lighting errors</description>
 				<version>1.0.2+forge.83663de</version>
 				<authors>Spottedleaf</authors>
 			</Meta>
@@ -212,12 +265,12 @@ Also contains a number of optional gameplay tweaks for convenience.
 			<MD5>31a484203482247dc6df91397e682561</MD5>
 			<Meta>
 				<license>LGPL-3.0-only</license>
-				<description>Shaders for Rubidium!
-</description>
+				<description>Shaders for Rubidium!</description>
 				<version>1.2.5a</version>
 				<authors>coderbot, IMS212, Justsnoopy30, FoundationGames</authors>
 			</Meta>
 		</Module>
+
 		<!-- Utilities -->
 		<Module name="AttributeFix" id="attributefix" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/AttributeFix-Forge-1.18.2-14.0.2.jar</URL>
@@ -250,6 +303,18 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>122769d6382726e5280ef3c79cbf10e0</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Better Advancements" id="betteradvancements" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/BetterAdvancements-1.18.1-0.1.2.122.jar</URL>
+			<Size>63756</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cd9cd0f4fc3e16938e9856876d9ac20d</MD5>
+			<Meta>
+				<description>Improvements to the advancements screen.</description>
+				<version>1.18.1-0.1.2.122</version>
+				<authors></authors>
+			</Meta>
 		</Module>
 		<Module name="Catalogue" id="catalogue" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/catalogue-1.6.2-1.18.2.jar</URL>
@@ -467,6 +532,19 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>4a01ff88f0739412da3797254e712a02</MD5>
 			</ConfigFile>
 		</Module>
+			<Module name="YUNGs Better Desert Temples" id="betterdeserttemples" depends="yungsapi" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterDesertTemples-1.18.2-Forge-1.3.1.jar</URL>
+			<Size>1488139</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>226ccde2fcf1313e4b104072d305b544</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>A complete redesign of Minecraft&apos;s desert temples</description>
+				<version>1.3.1</version>
+				<authors>YUNGNICKYOUNG, Tera</authors>
+			</Meta>
+		</Module>
 		<Module name="YUNGs Better Mineshafts" id="bettermineshafts" depends="yungsapi" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterMineshafts-1.18.2-Forge-2.2.jar</URL>
 			<Size>274075</Size>
@@ -545,64 +623,6 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 		</Module>
 
 		<!-- Content -->
-		<Module name="Comforts" id="comforts" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/comforts-forge-1.18.2-5.0.0.4.jar</URL>
-			<Size>225164</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>54d24dc2817a40ee3918cf9623c36091</MD5>
-			<Meta>
-				<license>LGPL-3.0-or-later</license>
-				<description>Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns.</description>
-				<version>1.18.2-5.0.0.4</version>
-				<authors>C4</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/defaultconfigs/comforts-server.toml</URL>
-				<Path>defaultconfigs/comforts-server.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ed5a49fcd7ec350a4584d78821ad36a3</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Quark" id="quark" depends="autoreglib" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Quark-3.2-358.jar</URL>
-			<Size>13743162</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>ce00897b54456cc8847db82c9305f7a0</MD5>
-			<Meta>
-				<license>https://github.com/Vazkii/Quark/blob/master/LICENSE.md</license>
-				<description>Small things, improving Minecraft bit by bit.</description>
-				<version>3.2-358</version>
-				<authors>Vazkii, WireSegal, MCVinnyq, Sully</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/quark-common.toml</URL>
-				<Path>config/quark-common.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>159d634ff755398f1a8fe9d6e69f7698</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Neapolitan" id="neapolitan" depends="blueprint" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/neapolitan-1.18.2-3.0.0.jar</URL>
-			<Size>4536140</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>2a4ff3b95be67c326547a1e52c5e4853</MD5>
-			<Meta>
-				<license>https://github.com/team-abnormals/neapolitan/blob/main/LICENSE.txt</license>
-				<description>    Adds new flavors and fruits to create tasty Ice Creams, Milkshakes, Cakes, and more!
-    </description>
-				<version>3.0.0</version>
-				<authors>Team Abnormals</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/neapolitan-common.toml</URL>
-				<Path>config/neapolitan-common.toml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f5bad9a3c56b809f2fe08d9321938cb5</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Berry Good" id="berry_good" depends="blueprint" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/berry_good-1.18.2-5.0.0.jar</URL>
 			<Size>3041091</Size>
@@ -639,6 +659,57 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<Path>config/buzzier_bees-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f37be18abccb8fc076376fc145a5a5b5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Comforts" id="comforts" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/comforts-forge-1.18.2-5.0.0.4.jar</URL>
+			<Size>225164</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>54d24dc2817a40ee3918cf9623c36091</MD5>
+			<Meta>
+				<license>LGPL-3.0-or-later</license>
+				<description>Adds sleeping bags and hammocks for, respectively, portability and turning day to night, without setting new spawns.</description>
+				<version>1.18.2-5.0.0.4</version>
+				<authors>C4</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/defaultconfigs/comforts-server.toml</URL>
+				<Path>defaultconfigs/comforts-server.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ed5a49fcd7ec350a4584d78821ad36a3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Glassential" id="glassential" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/glassential-forge-1.18.2-1.2.3.jar</URL>
+			<Size>42520</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3f63740ff2b2f54cdafdfc69ced9c9b8</MD5>
+			<Meta>
+				<license>MIT License https://github.com/Lykrast/Glassential/blob/master/LICENSE</license>
+				<description>Various glasses for all your decorative needss</description>
+				<version>1.2.3</version>
+				<authors>Lykrast</authors>
+			</Meta>
+		</Module>
+		<Module name="Neapolitan" id="neapolitan" depends="blueprint" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/neapolitan-1.18.2-3.0.0.jar</URL>
+			<Size>4536140</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2a4ff3b95be67c326547a1e52c5e4853</MD5>
+			<Meta>
+				<license>https://github.com/team-abnormals/neapolitan/blob/main/LICENSE.txt</license>
+				<description>    Adds new flavors and fruits to create tasty Ice Creams, Milkshakes, Cakes, and more!</description>
+				<version>3.0.0</version>
+				<authors>Team Abnormals</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/neapolitan-common.toml</URL>
+				<Path>config/neapolitan-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f5bad9a3c56b809f2fe08d9321938cb5</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Series" id="thermal" depends="cofh_core" side="BOTH">
@@ -690,6 +761,25 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<Path>config/thermal_integration-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a1e1ad4be96a49b8189f123992bd83f3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Quark" id="quark" depends="autoreglib" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Quark-3.2-358.jar</URL>
+			<Size>13743162</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ce00897b54456cc8847db82c9305f7a0</MD5>
+			<Meta>
+				<license>https://github.com/Vazkii/Quark/blob/master/LICENSE.md</license>
+				<description>Small things, improving Minecraft bit by bit.</description>
+				<version>3.2-358</version>
+				<authors>Vazkii, WireSegal, MCVinnyq, Sully</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/quark-common.toml</URL>
+				<Path>config/quark-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>159d634ff755398f1a8fe9d6e69f7698</MD5>
 			</ConfigFile>
 		</Module>
 	</Server>
