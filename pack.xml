@@ -107,7 +107,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<MD5>0a79fa039b71bf8d3942f677d3269576</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="YUNGs API" id="yungsapi" depends="" side="BOTH">
+		<Module name="YUNG&apos;s API" id="yungsapi" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsApi-1.18.2-Forge-2.0.8.jar</URL>
 			<Size>141972</Size>
 			<Required>true</Required>
@@ -308,7 +308,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors>Spottedleaf</authors>
 			</Meta>
 		</Module>
-		<Module name="Oculus" id="oculus" depends="rubidium" side="BOTH">
+		<Module name="Oculus" id="oculus" depends="rubidium" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/oculus-mc1.18.2-1.2.5a.jar</URL>
 			<Size>1777902</Size>
 			<Required isDefault="false">false</Required>
@@ -320,6 +320,54 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<version>1.2.5a</version>
 				<authors>coderbot, IMS212, Justsnoopy30, FoundationGames</authors>
 			</Meta>
+			<Submodule name="Sildur&apos;s Enhanced Default - Fancy" id="sildursenhanceddefaultfancy" depends="" side="CLIENT">
+				<URL priority="1">https://launcher.dmptr.com/playpack_6/files/shaderpacks/enhanceddefaultfancy.zip</URL>
+				<ModPath>shaderpacks/Sildur&apos;s Enhanced Default - Fancy.zip</ModPath>
+				<Size>35759</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>cac9b6a1872082f7c90147b2482a3715</MD5>
+			</Submodule>
+			<Submodule name="Sildur&apos;s Enhanced Default - Fast" id="sildursenhanceddefaultfast" depends="" side="CLIENT">
+				<URL priority="1">https://launcher.dmptr.com/playpack_6/files/shaderpacks/enhanceddefaultfast.zip</URL>
+				<ModPath>shaderpacks/Sildur&apos;s Enhanced Default - Fast.zip</ModPath>
+				<Size>35758</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>330a65199b01789c9d95f846b4b870e3</MD5>
+			</Submodule>
+			<Submodule name="Sildur&apos;s Vibrant - Extreme" id="vibrantextreme" depends="" side="CLIENT">
+				<URL priority="1">https://launcher.dmptr.com/playpack_6/files/shaderpacks/vibrantextreme.zip</URL>
+				<ModPath>shaderpacks/Sildur&apos;s Vibrant - Extreme.zip</ModPath>
+				<Size>143630</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>24eebee169fbb5716a57dd4064c1472b</MD5>
+			</Submodule>
+			<Submodule name="Sildur&apos;s Vibrant - Extreme VL" id="vibrantextremevl" depends="" side="CLIENT">
+				<URL priority="1">https://launcher.dmptr.com/playpack_6/files/shaderpacks/vibrantextremevl.zip</URL>
+				<ModPath>shaderpacks/Sildur&apos;s Vibrant - Extreme VL.zip</ModPath>
+				<Size>143644</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>657112aaf980190e7f939435297ad777</MD5>
+			</Submodule>
+			<Submodule name="Sildur&apos;s Vibrant - High" id="vibranthigh" depends="" side="CLIENT">
+				<URL priority="1">https://launcher.dmptr.com/playpack_6/files/shaderpacks/vibranthigh.zip</URL>
+				<ModPath>shaderpacks/Sildur&apos;s Vibrant - High.zip</ModPath>
+				<Size>143640</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>0b47dfbc8305fee5cc2387768c400c7d</MD5>
+			</Submodule>
+			<Submodule name="Sildur&apos;s Vibrant - Medium" id="vibrantmedium" depends="" side="CLIENT">
+				<URL priority="1">https://launcher.dmptr.com/playpack_6/files/shaderpacks/vibrantmedium.zip</URL>
+				<ModPath>shaderpacks/Sildur&apos;s Vibrant - Medium.zip</ModPath>
+				<Size>143642</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>cfe059d8e5cdd78490d41c50325bfb96</MD5>
+			</Submodule>
 		</Module>
 
 		<!-- Utilities -->
@@ -548,7 +596,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<MD5>3a868bc3d0ec08a8604a31545806fd4e</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Xaeros Minimap" id="xaerominimap" depends="" side="CLIENT">
+		<Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Xaeros_Minimap_22.13.2_Forge_1.18.2.jar</URL>
 			<Size>1226396</Size>
 			<Required isDefault="true">false</Required>
@@ -561,7 +609,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors>Xaero96</authors>
 			</Meta>
 		</Module>
-		<Module name="Xaeros World Map" id="xaeroworldmap" depends="" side="CLIENT">
+		<Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/XaerosWorldMap_1.26.6_Forge_1.18.2.jar</URL>
 			<Size>683076</Size>
 			<Required isDefault="true">false</Required>
@@ -607,7 +655,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<MD5>811adf12a2a00e0779cdabee172f50cc</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Oh The Biomes You'll Go" id="byg" depends="terrablender" side="BOTH">
+		<Module name="Oh The Biomes You&apos;ll Go" id="byg" depends="terrablender" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Oh_The_Biomes_You&apos;ll_Go-forge-1.18.2-1.4.4.jar</URL>
 			<Size>36406796</Size>
 			<Required>true</Required>
@@ -666,7 +714,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>7cafd5df95a85d9022234880776b86b3</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="YUNGs Better Dungeons" id="betterdungeons" depends="yungsapi" side="BOTH">
+		<Module name="YUNG&apos;s Better Dungeons" id="betterdungeons" depends="yungsapi" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterDungeons-1.18.2-Forge-2.1.0.jar</URL>
 			<Size>1024281</Size>
 			<Required>true</Required>
@@ -685,7 +733,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>4a01ff88f0739412da3797254e712a02</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="YUNGs Better Desert Temples" id="betterdeserttemples" depends="yungsapi" side="BOTH">
+		<Module name="YUNG&apos;s Better Desert Temples" id="betterdeserttemples" depends="yungsapi" side="BOTH">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterDesertTemples-1.18.2-Forge-1.3.1.jar</URL>
 			<Size>1488139</Size>
 			<Required>true</Required>
@@ -698,7 +746,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<authors>YUNGNICKYOUNG, Tera</authors>
 			</Meta>
 		</Module>
-		<Module name="YUNGs Better Mineshafts" id="bettermineshafts" depends="yungsapi" side="BOTH">
+		<Module name="YUNG&apos;s Better Mineshafts" id="bettermineshafts" depends="yungsapi" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterMineshafts-1.18.2-Forge-2.2.jar</URL>
 			<Size>274075</Size>
 			<Required>true</Required>
@@ -717,7 +765,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>47261882dc7412a1bf15d99a64956ce1</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="YUNGs Better Strongholds" id="betterstrongholds" depends="yungsapi" side="BOTH">
+		<Module name="YUNG&apos;s Better Strongholds" id="betterstrongholds" depends="yungsapi" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBetterStrongholds-1.18.2-Forge-2.1.1.jar</URL>
 			<Size>593261</Size>
 			<Required>true</Required>
@@ -736,7 +784,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>8706bfee7a76fd4b374c1bb74806e517</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="YUNGs Bridges" id="yungsbridges" depends="yungsapi" side="BOTH">
+		<Module name="YUNG&apos;s Bridges" id="yungsbridges" depends="yungsapi" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsBridges-1.18.2-Forge-2.1.0.jar</URL>
 			<Size>1062051</Size>
 			<Required>true</Required>
@@ -755,7 +803,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>8ba80f0de4a47e8925e0a8f4f1e0cff3</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="YUNGs Extras" id="yungsextras" depends="yungsapi" side="BOTH">
+		<Module name="YUNG&apos;s Extras" id="yungsextras" depends="yungsapi" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/YungsExtras-1.18.2-Forge-2.1.0.jar</URL>
 			<Size>868254</Size>
 			<Required>true</Required>
