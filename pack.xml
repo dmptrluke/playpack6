@@ -720,6 +720,24 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>bd4d7992d54274b7f0db37ea8999666b</MD5>
 			</ConfigFile>
 			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_1.json5</URL>
+				<Path>config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_1.json5</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c2a290864659f419901c733ddaec3640</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_2.json5</URL>
+				<Path>config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_2.json5</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>99f9036b4b0e437da8c305e31c1b9b89</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_3.json5</URL>
+				<Path>config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_3.json5</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>99f9036b4b0e437da8c305e31c1b9b89</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/scripts/byg.zs</URL>
 				<Path>scripts/byg.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
