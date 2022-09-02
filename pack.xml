@@ -608,6 +608,18 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<version>22.13.2</version>
 				<authors>Xaero96</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/xaerominimap.txt</URL>
+				<Path>config/xaerominimap.txt</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>20324d59ef18e063ea10a17c3295b0ad</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/xaerominimap_entities.json</URL>
+				<Path>config/xaerominimap_entities.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f5b8f4aeac8bd7e7975d9e11ac6eaff2</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/XaerosWorldMap_1.26.6_Forge_1.18.2.jar</URL>
@@ -824,6 +836,23 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 		</Module>
 
 		<!-- Content -->
+		<Module name="Archer&apos;s Paradox" id="archers_paradox" depends="cofh_core" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/archers_paradox-1.18.2-1.6.1.6.jar</URL>
+			<Size>211125</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0bfede983f1f78d881eaeb863a6022a6</MD5>
+			<Meta>
+				<description>Adds many new varieties of arrows.</description>
+				<authors>King Lemming</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/defaultconfigs/archers_paradox-server.toml</URL>
+				<Path>defaultconfigs/archers_paradox-server.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>96abb114db12f8f40a0295cfc6a248ed</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Berry Good" id="berry_good" depends="blueprint" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/berry_good-1.18.2-5.0.0.jar</URL>
 			<Size>3041091</Size>
@@ -879,6 +908,23 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<Path>defaultconfigs/comforts-server.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ed5a49fcd7ec350a4584d78821ad36a3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Ensorcellation" id="ensorcellation" depends="cofh_core" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/ensorcellation-1.18.2-1.6.1.8.jar</URL>
+			<Size>126734</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5b397e62d960516cd0fa0aebc948acb9</MD5>
+			<Meta>
+				<description>Adds a multitude of highly configurable Enchantments!</description>
+				<authors>King Lemming</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/defaultconfigs/ensorcellation-server.toml</URL>
+				<Path>defaultconfigs/ensorcellation-server.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9fd10c503246cb35f1f507aa1e8eec86</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Glassential" id="glassential" depends="" side="BOTH">

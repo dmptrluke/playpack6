@@ -86,7 +86,7 @@ compassColor:9
 northCompassColor:-1
 showDimensionName:false
 displayMultipleWaypointInfo:1
-entityRadar:false
+entityRadar:true
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1
