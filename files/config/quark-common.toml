@@ -53,7 +53,7 @@
 	"Ender Watcher" = false
 	"Dispensers Place Blocks" = true
 	Chute = true
-	"Chains Connect Blocks" = true
+	"Chains Connect Blocks" = false
 
 	[automation.pistons_move_tile_entities]
 		"Enable Chests Moving Together" = true
@@ -213,11 +213,11 @@
 		"Enable Cactus Block" = true
 		"Enable Chorus Fruit Block" = true
 		"Enable Stick Block" = true
-		"Enable Apple Crate" = true
-		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
-		"Enable Beetroot Crate" = true
+		"Enable Apple Crate" = false
+		"Enable Golden Apple Crate" = false
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
+		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
 		"Enable Gunpowder Sack" = true

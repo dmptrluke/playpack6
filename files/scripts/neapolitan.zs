@@ -5,37 +5,11 @@ import mods.jei.JEI;
 
 <tag:items:forge:crops/strawberry>.add(<item:neapolitan:strawberries>);
 
-// replace thermal strawberry with neapolitan strawberry
-Replacer.forAllTypes().replace(<item:thermal:strawberry>, <item:neapolitan:strawberries>);
-Replacer.forAllTypes().replace(<item:thermal:strawberry_block>, <item:neapolitan:strawberry_basket>);
-
-// update insolator and gourmand recipes
-<recipetype:thermal:press>.removeByName("thermal:machines/press/press_strawberry_packing");
-<recipetype:thermal:press>.removeByName("thermal:machines/press/press_strawberry_unpacking");
-
 <recipetype:thermal:press>.addRecipe("press/strawberry_packing", [<item:neapolitan:strawberry_basket> % -100.0], <fluid:minecraft:empty>, [<item:neapolitan:strawberries> * 9, <item:thermal:press_packing_3x3_die>], 400);
 <recipetype:thermal:press>.addRecipe("press/strawberry_unpacking", [<item:neapolitan:strawberries> * 9 % -100.0], <fluid:minecraft:empty>, [<item:neapolitan:strawberry_basket>, <item:thermal:press_unpacking_die>], 400);
 
-<recipetype:thermal:insolator>.removeByName("thermal:machines/insolator/insolator_strawberry");
-<recipetype:thermal:insolator>.addRecipe("insolator/strawberry", [<item:neapolitan:strawberries> % 250.0, <item:neapolitan:strawberry_pips> % 110.0], <item:neapolitan:strawberry_pips>, 1000, 30000);
-
-<recipetype:thermal:gourmand_fuel>.removeByName("thermal:fuels/gourmand/gourmand_strawberry_block");
 <recipetype:thermal:gourmand_fuel>.addFuel("gourmand/strawberry_block", <item:neapolitan:strawberry_basket>, 32000);
 <recipetype:thermal:gourmand_fuel>.addFuel("gourmand/white_strawberry_block", <item:neapolitan:white_strawberry_basket>, 34000);
-
-// hide and remove thermal strawberries
-JEI.hideIngredient(<item:thermal:strawberry>);
-craftingTable.remove(<item:thermal:strawberry>);
-
-JEI.hideIngredient(<item:thermal:strawberry_block>);
-craftingTable.remove(<item:thermal:strawberry_block>);
-
-JEI.hideIngredient(<item:thermal:strawberry_seeds>);
-craftingTable.remove(<item:thermal:strawberry_seeds>);
-
-// remove thermal chocolate cake
-JEI.hideIngredient(<item:thermal:chocolate_cake>);
-craftingTable.remove(<item:thermal:chocolate_cake>);
 
 // WHITE STRAWBERRIES
 <recipetype:thermal:press>.addRecipe("press/white_strawberry_packing", [<item:neapolitan:white_strawberry_basket> % -100.0], <fluid:minecraft:empty>, [<item:neapolitan:white_strawberries> * 9, <item:thermal:press_packing_3x3_die>], 400);

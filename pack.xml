@@ -997,6 +997,25 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<MD5>9fd10c503246cb35f1f507aa1e8eec86</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Farmer&apos;s Delight" id="farmersdelight" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/FarmersDelight-1.18.2-1.1.2.jar</URL>
+			<Size>2579873</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a47e3019e73ead96364d0ce0c0760526</MD5>
+			<Meta>
+				<license>MIT License</license>
+				<description>A lightweight farming and cooking expansion for Minecraft!</description>
+				<version>1.18.2-1.1.2</version>
+				<authors>vectorwing</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/farmersdelight-common.toml</URL>
+				<Path>config/farmersdelight-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7f51557d9f6ff7ee791458cd64681756</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Glassential" id="glassential" depends="" side="BOTH">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/glassential-forge-1.18.2-1.2.3.jar</URL>
 			<Size>42520</Size>
@@ -1032,7 +1051,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/scripts/neapolitan.zs</URL>
 				<Path>scripts/neapolitan.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ad10d35cca264f58b6629f0e32ef49a9</MD5>
+				<MD5>9258f0bfa3117303cb212017c63c7d25</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Series" id="thermal" depends="cofh_core" side="BOTH">
@@ -1057,17 +1076,6 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>75966eeeb4eec84f3ba8647fbb513218</MD5>
 			</ConfigFile>
-		</Module>
-		<Module name="Thermal Cultivation" id="thermal_cultivation" depends="cofh_core thermal" side="BOTH">
-			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/thermal_cultivation-1.18.2-1.6.3.11.jar</URL>
-			<Size>679560</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>181a67c932aa0aa17c042e03d1b1973e</MD5>
-			<Meta>
-				<description>Thermal gets agrarian!</description>
-				<authors>King Lemming</authors>
-			</Meta>
 		</Module>
 		<Module name="Thermal Expansion" id="thermal_expansion" depends="cofh_core thermal" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/thermal_expansion-1.18.2-1.6.3.13.jar</URL>
@@ -1124,7 +1132,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/quark-common.toml</URL>
 				<Path>config/quark-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>159d634ff755398f1a8fe9d6e69f7698</MD5>
+				<MD5>3dff549e3144a54935296ef638e958db</MD5>
 			</ConfigFile>
 		</Module>
 	</Server>
