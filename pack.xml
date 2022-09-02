@@ -147,6 +147,12 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<version>0.5.0</version>
 				<authors></authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/aiimprovements-common.toml</URL>
+				<Path>config/aiimprovements-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f6bd6218679b36f447dc07610fed1159</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Better Biome Blend" id="betterbiomeblend" depends="" side="BOTH">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/betterbiomeblend-1.18.2-1.3.5-forge.jar</URL>
@@ -519,6 +525,31 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<MD5>8b635ba1bd6bfb5c6397a369887ba3db</MD5>
 			</Submodule>
 		</Module>
+		<Module name="Jade" id="jade" depends="jei" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Jade-1.18.2-forge-5.2.3.jar</URL>
+			<Size>298801</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6a27931f52ee429e897ae2a0337d2fdc</MD5>
+			<Meta>
+				<license>CC BY-NC-SA 4.0</license>
+				<description>HWYLA fork &amp; addons</description>
+				<version>5.2.3</version>
+				<authors>Snownee</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/jade/jade.json</URL>
+				<Path>config/jade/jade.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e2ebad904102fdd3048a4950716d0182</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/jade/jade_plugins.json</URL>
+				<Path>config/jade/jade_plugins.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3a868bc3d0ec08a8604a31545806fd4e</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/jei-1.18.2-9.7.1.255.jar</URL>
 			<Size>993934</Size>
@@ -545,6 +576,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors></authors>
 			</Meta>
 		</Module>
+
 		<Module name="OpenLoader" id="openloader" depends="" side="BOTH">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/OpenLoader-Forge-1.18.2-12.0.1.jar</URL>
 			<Size>21632</Size>
@@ -603,30 +635,18 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors>C4</authors>
 			</Meta>
 		</Module>
-		<Module name="Jade" id="jade" depends="jei" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Jade-1.18.2-forge-5.2.3.jar</URL>
-			<Size>298801</Size>
+		<Module name="Toast Control" id="toastcontrol" depends="placebo" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/ToastControl-1.18.2-6.0.3.jar</URL>
+			<Size>24724</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6a27931f52ee429e897ae2a0337d2fdc</MD5>
+			<MD5>07a6dd58793edefe2b9591ad120748a3</MD5>
 			<Meta>
-				<license>CC BY-NC-SA 4.0</license>
-				<description>HWYLA fork &amp; addons</description>
-				<version>5.2.3</version>
-				<authors>Snownee</authors>
+				<license>MIT License</license>
+				<description>Blocking annoying popups since 1.12</description>
+				<version>6.0.3</version>
+				<authors></authors>
 			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/jade/jade.json</URL>
-				<Path>config/jade/jade.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e2ebad904102fdd3048a4950716d0182</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/jade/jade_plugins.json</URL>
-				<Path>config/jade/jade_plugins.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3a868bc3d0ec08a8604a31545806fd4e</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Xaeros_Minimap_22.13.2_Forge_1.18.2.jar</URL>
