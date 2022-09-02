@@ -46,6 +46,19 @@
 				<authors>Team Abnormals</authors>
 			</Meta>
 		</Module>
+		<Module name="Cloth Config API" id="cloth_config" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/cloth-config-6.2.62-forge.jar</URL>
+			<Size>1133101</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>970bd6dfa774d4bf39b9a15f159be6a0</MD5>
+			<Meta>
+				<license>GNU LGPLv3</license>
+				<description>An API for config screens</description>
+				<version>6.2.62</version>
+				<authors></authors>
+			</Meta>
+		</Module>
 		<Module name="CoFH Core" id="cofh_core" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/cofh_core-1.18.2-1.6.4.21.jar</URL>
 			<Size>1379250</Size>
@@ -160,7 +173,26 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
-		<Module name="EntityCulling" id="entityculling" depends="" side="BOTH">
+		<Module name="Debugify" id="debugify" depends="cloth_config" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/debugify-1.11.0-forge-1.18.2.jar</URL>
+			<Size>320382</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5f3e9c2f0a7ce423e6f99ae8a6956019</MD5>
+			<Meta>
+				<license>LGPLv3.0</license>
+				<description>Fixes Minecraft bugs found on the bug tracker</description>
+				<version>1.11.0</version>
+				<authors>isXander</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/debugify.json</URL>
+				<Path>config/debugify.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>98b54ea6fcc2776e7fde2825511c41ce</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="EntityCulling" id="entityculling" depends="" side="CLIENT">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/entityculling-forge-mc1.18-1.5.1.jar</URL>
 			<Size>45276</Size>
 			<Required>true</Required>
