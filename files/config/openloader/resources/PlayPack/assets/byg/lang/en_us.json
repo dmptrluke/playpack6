@@ -1,4 +1,45 @@
 {
+  "biome.byg.redwood_thicket": "Sequoia Thicket",
+
+  "block.byg.redwood_bookshelf": "Sequoia Bookshelf",
+  "block.byg.redwood_button": "Sequoia Button",
+  "block.byg.redwood_crafting_table": "Sequoia Crafting Table",
+  "block.byg.redwood_door": "Sequoia Door",
+  "block.byg.redwood_fence": "Sequoia Fence",
+  "block.byg.redwood_fence_gate": "Sequoia Fence Gate",
+  "block.byg.redwood_leaves": "Sequoia Leaves",
+  "block.byg.redwood_log": "Sequoia Log",
+  "block.byg.redwood_planks": "Sequoia Planks",
+  "block.byg.redwood_pressure_plate": "Sequoia Pressure Plate",
+  "block.byg.redwood_sapling": "Sequoia Sapling",
+  "block.byg.redwood_sign": "Sequoia Sign",
+  "block.byg.redwood_slab": "Sequoia Slab",
+  "block.byg.redwood_stairs": "Sequoia Stairs",
+  "block.byg.redwood_trapdoor": "Sequoia Trapdoor",
+  "block.byg.redwood_wall_sign": "Sequoia Wall Sign",
+  "block.byg.redwood_wood": "Sequoia Wood",
+
+  "item.byg.redwood_boat": "Sequoia Boat",
+  "item.byg.redwood_bookshelf": "Sequoia Bookshelf",
+  "item.byg.redwood_button": "Sequoia Button",
+  "item.byg.redwood_crafting_table": "Sequoia Crafting Table",
+  "item.byg.redwood_door": "Sequoia Door",
+  "item.byg.redwood_fence": "Sequoia Fence",
+  "item.byg.redwood_fence_gate": "Sequoia Fence Gate",
+  "item.byg.redwood_leaves": "Sequoia Leaves",
+  "item.byg.redwood_log": "Sequoia Log",
+  "item.byg.redwood_planks": "Sequoia Planks",
+  "item.byg.redwood_pressure_plate": "Sequoia Pressure Plate",
+  "item.byg.redwood_sapling": "Sequoia Sapling",
+  "item.byg.redwood_sign": "Sequoia Sign",
+  "item.byg.redwood_slab": "Sequoia Slab",
+  "item.byg.redwood_stairs": "Sequoia Stairs",
+  "item.byg.redwood_trapdoor": "Sequoia Trapdoor",
+  "item.byg.redwood_wood": "Sequoia Wood",
+
+  "block.byg.stripped_redwood_log": "Stripped Sequoia Log",
+  "block.byg.stripped_redwood_wood": "Stripped Sequoia Wood",
+
   "block.byg.mahogany_bookshelf": "Purple Mahogany Bookshelf",
   "block.byg.mahogany_button": "Purple Mahogany Button",
   "block.byg.mahogany_crafting_table": "Purple Mahogany Crafting Table",
@@ -16,6 +57,7 @@
   "block.byg.mahogany_trapdoor": "Purple Mahogany Trapdoor",
   "block.byg.mahogany_wall_sign": "Purple Mahogany Wall Sign",
   "block.byg.mahogany_wood": "Purple Mahogany Wood",
+
   "item.byg.mahogany_boat": "Purple Mahogany Boat",
   "item.byg.mahogany_bookshelf": "Purple Mahogany Bookshelf",
   "item.byg.mahogany_button": "Purple Mahogany Button",
@@ -33,6 +75,7 @@
   "item.byg.mahogany_stairs": "Purple Mahogany Stairs",
   "item.byg.mahogany_trapdoor": "Purple Mahogany Trapdoor",
   "item.byg.mahogany_wood": "Purple Mahogany Wood",
+
   "item.byg.stripped_mahogany_log": "Stripped Purple Mahogany Log",
   "item.byg.stripped_mahogany_wood": "Stripped Purple Mahogany Wood"
 }

@@ -481,7 +481,13 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/openloader/resources/PlayPack/assets/byg/lang/en_us.json</URL>
 				<Path>config/openloader/resources/PlayPack/assets/byg/lang/en_us.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e1028ca502e886b7bb68b9902a0fcd59</MD5>
+				<MD5>a811d3bbb42e46c5b290e4e9b87194a3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/openloader/resources/PlayPack/assets/biomesoplenty/lang/en_us.json</URL>
+				<Path>config/openloader/resources/PlayPack/assets/biomesoplenty/lang/en_us.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>890c42209125ed61f46d2411e463b577</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/openloader/resources/PlayPack/pack.mcmeta</URL>
