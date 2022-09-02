@@ -602,6 +602,12 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<MD5>890c42209125ed61f46d2411e463b577</MD5>
 			</ConfigFile>
 			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/openloader/resources/PlayPack/assets/tools_complement/lang/en_us.json</URL>
+				<Path>config/openloader/resources/PlayPack/assets/tools_complement/lang/en_us.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b94b63306c904000f4040e01479d8d7a</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/openloader/resources/PlayPack/pack.mcmeta</URL>
 				<Path>config/openloader/resources/PlayPack/pack.mcmeta</Path>
 				<NoOverwrite>false</NoOverwrite>
