@@ -1013,7 +1013,13 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/farmersdelight-common.toml</URL>
 				<Path>config/farmersdelight-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>7f51557d9f6ff7ee791458cd64681756</MD5>
+				<MD5>b9d7c7be7a6cd2b00c58b8b79db9402b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/scripts/farmersdelight.zs</URL>
+				<Path>scripts/farmersdelight.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>170c8d0c8f576cca79e39c26852a4ad3</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Glassential" id="glassential" depends="" side="BOTH">
@@ -1051,7 +1057,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/scripts/neapolitan.zs</URL>
 				<Path>scripts/neapolitan.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>9258f0bfa3117303cb212017c63c7d25</MD5>
+				<MD5>9d9a71356b57c17f66b838b02bc530ee</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Series" id="thermal" depends="cofh_core" side="BOTH">

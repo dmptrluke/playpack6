@@ -2,7 +2,6 @@ import crafttweaker.api.recipe.Replacer;
 import mods.jei.JEI;
 
 // STRAWBERRIES
-
 <tag:items:forge:crops/strawberry>.add(<item:neapolitan:strawberries>);
 
 <recipetype:thermal:press>.addRecipe("press/strawberry_packing", [<item:neapolitan:strawberry_basket> % -100.0], <fluid:minecraft:empty>, [<item:neapolitan:strawberries> * 9, <item:thermal:press_packing_3x3_die>], 400);
