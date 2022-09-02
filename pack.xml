@@ -465,6 +465,31 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors></authors>
 			</Meta>
 		</Module>
+		<Module name="OpenLoader" id="openloader" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/OpenLoader-Forge-1.18.2-12.0.1.jar</URL>
+			<Size>21632</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0895b10593c748ab7cc249c536b9b986</MD5>
+			<Meta>
+				<license>LGPL V2.1</license>
+				<description>An open source data and resource loader.</description>
+				<version>12.0.1</version>
+				<authors>Darkhax</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/openloader/resources/PlayPack/assets/byg/lang/en_us.json</URL>
+				<Path>config/openloader/resources/PlayPack/assets/byg/lang/en_us.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e1028ca502e886b7bb68b9902a0fcd59</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/openloader/resources/PlayPack/pack.mcmeta</URL>
+				<Path>config/openloader/resources/PlayPack/pack.mcmeta</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7b42c443eb96373a8193bfa3130b2ac9</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/Patchouli-1.18.2-71.1.jar</URL>
 			<Size>631415</Size>
