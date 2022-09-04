@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="https://launcher.dmptr.com/launcher/ServerPackv2.xsl" type="text/xsl"?>
-<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com https://launcher.dmptr.com/launcher/ServerPackv2.xsd">
 	<Server id="playpack6" abstract="false" name="PlayPack 6" newsUrl="https://launcher.dmptr.com/playpack_6/pack.xml" version="1.18.2" generateList="true" autoConnect="true" revision="1" mainClass="cpw.mods.bootstraplauncher.BootstrapLauncher" launcherType="Vanilla">
+		<!-- Metadata -->
+		<Meta>
+			<note>The latest version of PlayPack for 1.18!</note>
+		</Meta>
+
+		<!-- Loaders -->
 		<Loader type="Forge" version="1.18.2-40.1.74" loadOrder="0" />
 
 		<!-- Libraries -->
@@ -547,7 +553,7 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/jade/jade_plugins.json</URL>
 				<Path>config/jade/jade_plugins.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>3a868bc3d0ec08a8604a31545806fd4e</MD5>
+				<MD5>d89d4b8435199c00a81d91f70595803b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
@@ -769,7 +775,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_2.json5</URL>
 				<Path>config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_2.json5</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e4282a434906e59f16aab6e7f2fcc4ee</MD5>
+				<MD5>92bedb1a7a9d8d0f1eca2f9b779a4f3a</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5</URL>
@@ -1126,6 +1132,36 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<Path>config/thermal_integration-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a1e1ad4be96a49b8189f123992bd83f3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tool&apos;s Complement" id="tools_complement" depends="cofh_core" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/tools_complement-1.18.2-1.1.2.9.jar</URL>
+			<Size>399207</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>21ab4f22cd682d4b8e2959808c62245a</MD5>
+			<Meta>
+				<description>Adds Armor and Tool sets in various vanilla and modded materials!</description>
+				<authors>King Lemming</authors>
+			</Meta>
+		</Module>
+		<Module name="Waystones" id="waystones" depends="balm" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/waystones-forge-1.18.2-10.1.0.jar</URL>
+			<Size>357620</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a9277334d523aa5be73b9e74565c3ff8</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Teleport back to activated waystones. For Survival, Adventure or Servers.</description>
+				<version>10.1.0</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/waystones-common.toml</URL>
+				<Path>config/waystones-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0cb809c368bc88fa67e4a6890b398bd4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="autoreglib" side="BOTH">

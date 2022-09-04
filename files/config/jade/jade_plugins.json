@@ -1,4 +1,4 @@
-{
+{ 
   "minecraft": {
     "horse_inventory": true,
     "total_ench_power": true,
@@ -17,7 +17,7 @@
     "armor_stand": true,
     "fluid": true,
     "profession": true,
-    "item_tooltip": true,
+    "item_tooltip": false,
     "breaking_progress": true,
     "tnt_stability": true,
     "ench_power": true,
