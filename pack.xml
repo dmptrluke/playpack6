@@ -107,6 +107,20 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors></authors>
 			</Meta>
 		</Module>
+		<Module name="Selene" id="selene" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/selene-1.18.2-1.17.9.jar</URL>
+			<Size>456163</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>25c5876f944b26593136ce5578f64f0c</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>    A small library that allows to make custom map markers, first and third person animations and contains the soft fluid system as well as other utilities
+    </description>
+				<version>${file.jarVersion}</version>
+				<authors>MehVahdJukaar</authors>
+			</Meta>
+		</Module>
 		<Module name="TerraBlender" id="terrablender" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/TerraBlender-forge-1.18.2-1.1.0.102.jar</URL>
 			<Size>99002</Size>
@@ -1108,6 +1122,37 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<Path>scripts/neapolitan.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>5ed050519de7ef6a1a2ff3db6b5b8232</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Supplementaries" id="supplementaries" depends="selene" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/supplementaries-1.18.2-1.4.12.jar</URL>
+			<Size>13284517</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f6acc9b8b6e35a288a1782490d3e3c87</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Many functional and useful Vanilla+ blocks</description>
+				<version>1.4.12</version>
+				<authors>MehVahdJukaar, Plantkillable</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/supplementaries-client.toml</URL>
+				<Path>config/supplementaries-client.toml</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>14052b8d34ed4cec482efc2e33e0b601</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/supplementaries-common.toml</URL>
+				<Path>config/supplementaries-common.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6cdab625fe71ad9b218f908dae270fd9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/supplementaries-registry.toml</URL>
+				<Path>config/supplementaries-registry.toml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ad66d227f2b95f0b114f7f9fa66621df</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Series" id="thermal" depends="cofh_core" side="BOTH">
