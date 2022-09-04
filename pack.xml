@@ -8,7 +8,7 @@
 		</Meta>
 
 		<!-- Loaders -->
-		<Loader type="Forge" version="1.18.2-40.1.74" loadOrder="0" />
+		<Loader type="Forge" version="1.18.2-40.1.76" loadOrder="0" />
 
 		<!-- Libraries -->
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
@@ -281,6 +281,19 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<MD5>eba16cc02d779fa059d60d2721a5cd51</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="LazyDFU" id="lazydfu" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/lazydfu-1.0-1.18+.jar</URL>
+			<Size>15445</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f90813b92c422c9f159c5e7d89167233</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Makes DataFixerUpper more lazy</description>
+				<version>0.1.3</version>
+				<authors>tuxed</authors>
+			</Meta>
+		</Module>
 		<Module name="Radium" id="radium" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/radium-0.7.10.jar</URL>
 			<Size>501920</Size>
@@ -530,6 +543,31 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<ModType>Regular</ModType>
 				<MD5>8b635ba1bd6bfb5c6397a369887ba3db</MD5>
 			</Submodule>
+		</Module>
+		<Module name="Default Options" id="defaultoptions" depends="balm" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/defaultoptions-forge-1.18.2-14.1.1.jar</URL>
+			<Size>86836</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e6288f72a9687af7f466c1be90c17568</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>A way for modpacks to ship a default (key) configuration without having to include an options.txt file. Also allows local options from any mod .cfg file.</description>
+				<version>14.1.1</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/defaultoptions/keybindings.txt</URL>
+				<Path>config/defaultoptions/keybindings.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>aa381a09608e29e389ea7aa2263579a1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/defaultoptions/options.txt</URL>
+				<Path>config/defaultoptions/options.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>038f24418c2759176bb443a7f5eab69f</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Jade" id="jade" depends="jei" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Jade-1.18.2-forge-5.2.3.jar</URL>
@@ -1031,7 +1069,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/scripts/farmersdelight.zs</URL>
 				<Path>scripts/farmersdelight.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>170c8d0c8f576cca79e39c26852a4ad3</MD5>
+				<MD5>5622b587be05b36f7964ce5cd07a8d28</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Glassential" id="glassential" depends="" side="BOTH">
@@ -1069,7 +1107,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/scripts/neapolitan.zs</URL>
 				<Path>scripts/neapolitan.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>9d9a71356b57c17f66b838b02bc530ee</MD5>
+				<MD5>5ed050519de7ef6a1a2ff3db6b5b8232</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Series" id="thermal" depends="cofh_core" side="BOTH">
@@ -1180,7 +1218,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/quark-common.toml</URL>
 				<Path>config/quark-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>3dff549e3144a54935296ef638e958db</MD5>
+				<MD5>bf7577949c0e5ce954e9a9c56dc08b02</MD5>
 			</ConfigFile>
 		</Module>
 	</Server>

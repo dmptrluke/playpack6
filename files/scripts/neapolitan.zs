@@ -1,6 +1,12 @@
 import crafttweaker.api.recipe.Replacer;
 import mods.jei.JEI;
 
+// MILK
+craftingTable.removeByName("neapolitan:milk/milk_bottles_from_bucket");
+
+JEI.hideIngredient(<item:neapolitan:milk_bottle>);
+craftingTable.remove(<item:neapolitan:milk_bottle>);
+
 // STRAWBERRIES
 <tag:items:forge:crops/strawberry>.add(<item:neapolitan:strawberries>);
 

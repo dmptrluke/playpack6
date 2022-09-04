@@ -109,7 +109,7 @@
 	"Framed Glass" = true
 	"Duskbound Blocks" = true
 	"Compressed Blocks" = true
-	"Celebratory Lamps" = true
+	"Celebratory Lamps" = false
 
 	[building.vertical_planks]
 		#This feature disables itself if any of the following mods are loaded: 
