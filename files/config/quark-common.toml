@@ -790,7 +790,7 @@
 
 		[world.corundum.generation_settings]
 			#Allowed values: [0,)
-			Rarity = 400
+			Rarity = 600
 			#Allowed values: [-64,320]
 			"Min Y Level" = 0
 			#Allowed values: [-64,320]

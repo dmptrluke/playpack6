@@ -8,7 +8,7 @@
 		</Meta>
 
 		<!-- Loaders -->
-		<Loader type="Forge" version="1.18.2-40.1.76" loadOrder="0" />
+		<Loader type="Forge" version="1.18.2-40.1.80" loadOrder="0" />
 
 		<!-- Libraries -->
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
@@ -539,11 +539,11 @@ Also contains a number of optional gameplay tweaks for convenience.
 			</Meta>
 		</Module>
 		<Module name="CraftTweaker" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/CraftTweaker-forge-1.18.2-9.1.185.jar</URL>
-			<Size>2902311</Size>
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/CraftTweaker-forge-1.18.2-9.1.189.jar</URL>
+			<Size>2903109</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>91469c688f029b9a61a6c02f47b16096</MD5>
+			<MD5>69c7f0ca81f5ec10d0f661e3e6bd2124</MD5>
 			<Meta>
 				<license>MIT</license>
 				<description>Customize your minecraft experience!</description>
@@ -582,6 +582,32 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>038f24418c2759176bb443a7f5eab69f</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Ears" id="ears" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/ears-forge-1.18-1.4.5.jar</URL>
+			<Size>158613</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f37152854ceb2db7fd59c0d1a36298e1</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Faithful fancy fashion features for fuzzy folk.</description>
+				<version>${file.jarVersion}</version>
+				<authors>unascribed</authors>
+			</Meta>
+		</Module>
+		<Module name="Inventory Essentials" id="inventoryessentials" depends="balm" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/inventoryessentials-forge-1.18.2-4.0.2.jar</URL>
+			<Size>130437</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>56a2fc7536c05aca5ade0e51a91ef79a</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>Basic inventory tweaks. Lightweight and compatible.</description>
+				<version>4.0.2</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
 		</Module>
 		<Module name="Jade" id="jade" depends="jei" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Jade-1.18.2-forge-5.2.3.jar</URL>
@@ -634,7 +660,19 @@ Also contains a number of optional gameplay tweaks for convenience.
 				<authors></authors>
 			</Meta>
 		</Module>
-
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/MouseTweaks-forge-mc1.18-2.21.jar</URL>
+			<Size>76344</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3c10dff8a4d7c157184f2224db8639a2</MD5>
+			<Meta>
+				<license>BSD-3-Clause</license>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
+				<version>2.21</version>
+				<authors>Ivan Molodetskikh (YaLTeR)</authors>
+			</Meta>
+		</Module>
 		<Module name="OpenLoader" id="openloader" depends="" side="BOTH">
 			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/OpenLoader-Forge-1.18.2-12.0.1.jar</URL>
 			<Size>21632</Size>
@@ -713,15 +751,15 @@ Also contains a number of optional gameplay tweaks for convenience.
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="CLIENT">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/Xaeros_Minimap_22.13.2_Forge_1.18.2.jar</URL>
-			<Size>1226396</Size>
-			<Required isDefault="true">false</Required>
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/Xaeros_Minimap_22.14.1_Forge_1.18.2.jar</URL>
+			<Size>1227089</Size>
+			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>613d2a9b1949956049689883850c5fae</MD5>
+			<MD5>b1791f67950caf48b1f3b55eb6da51ec</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>The most vanilla-looking minimap for Minecraft.</description>
-				<version>22.13.2</version>
+				<version>22.14.1</version>
 				<authors>Xaero96</authors>
 			</Meta>
 			<ConfigFile>
@@ -738,23 +776,17 @@ Also contains a number of optional gameplay tweaks for convenience.
 			</ConfigFile>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="CLIENT">
-			<URL priority="0">https://launcher.dmptr.com/playpack_6/files/mods/XaerosWorldMap_1.26.6_Forge_1.18.2.jar</URL>
-			<Size>683076</Size>
-			<Required isDefault="true">false</Required>
+			<URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/XaerosWorldMap_1.27.0_Forge_1.18.2.jar</URL>
+			<Size>690867</Size>
+			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>bfa6b1a6c36743cbad69bf6268748e27</MD5>
+			<MD5>925a65e996e50f28076cc0e5d763a306</MD5>
 			<Meta>
 				<license>All rights reserved</license>
 				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
-				<version>1.26.6</version>
+				<version>1.27.0</version>
 				<authors>Xaero96</authors>
 			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/xaerominimap.txt</URL>
-				<Path>config/xaerominimap.txt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>20324d59ef18e063ea10a17c3295b0ad</MD5>
-			</ConfigFile>
 		</Module>
 
 		<!-- World Generation -->
@@ -1263,7 +1295,7 @@ Notice: The linked wiki is not owned by BYG, the wiki is open for anyone to edit
 				<URL priority="0">https://launcher.dmptr.com/playpack_6/files/config/quark-common.toml</URL>
 				<Path>config/quark-common.toml</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>bf7577949c0e5ce954e9a9c56dc08b02</MD5>
+				<MD5>b8a05ec75c8982988d60ceafa872e057</MD5>
 			</ConfigFile>
 		</Module>
 	</Server>
